@@ -97,7 +97,7 @@ network:
   ethernets:
     enp0s3:
       dhcp4: false
-      addresses: [10.26.44.XXX/24]
+      addresses: [10.26.44.204/24]
       gateway4: 10.26.44.1
       nameservers:
         addresses: [8.8.8.8, 8.8.4.4]
@@ -120,7 +120,7 @@ sudo resolvectl
 sudo vim /etc/hosts
 	INSERT
 		127.0.0.1     wsseunome.senac.intra     wsseunome
-		10.26.44.XXX  wsseunome.senac.intra     wsseunome
+		10.26.44.204  wsseunome.senac.intra     wsseunome
 	
 	#salvar e sair do arquivo
 	ESC SHIFT : x <Enter>
