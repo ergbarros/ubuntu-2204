@@ -119,8 +119,8 @@ sudo resolvectl
 # Adicionando as informações de pesquisa de IP e nome no servidor no arquivo hosts
 sudo vim /etc/hosts
 	INSERT
-		127.0.0.1     wsseunome.senac.intra     wsseunome
-		10.26.44.204  wsseunome.senac.intra     wsseunome
+		127.0.0.1     wsseunome.senac.intra     wsedinaldo
+		10.26.44.204  wsseunome.senac.intra     wsedinaldo
 	
 	#salvar e sair do arquivo
 	ESC SHIFT : x <Enter>
